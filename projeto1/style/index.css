@@ -10,20 +10,7 @@ body {
 	height: 500px;
 	border-top: 1px solid #ccc;
 }
-.hero-content {
-	margin-top: 110px;
-	text-align: center;
-	color: #fafafa;
-}
-li {
-	list-style-type: none;
-}
 
-.hero-content h1 {
-	text-transform: uppercase;
-	font-size: 46px;
-	text-shadow: 3px 3px 5px black;
-}
 header nav ul {
 	text-align: right;
 	margin: 20px 15px 0 0;
@@ -32,6 +19,7 @@ header nav li {
 	display: inline-block;
 	border: 1px solid white;
 	margin-left: 15px;
+	list-style-type: none;
 }
 header nav a {
 	text-decoration: none;
@@ -47,6 +35,31 @@ header nav a:hover {
 }
 header nav a:visited {
 	color: #fafafa;
+}
+
+.hero-content {
+	margin-top: 110px;
+	text-align: center;
+	color: #fafafa;
+}
+
+.hero-content h1 {
+	text-transform: uppercase;
+	font-size: 46px;
+	text-shadow: 3px 3px 5px black;
+}
+
+.hero-subtitle {
+	width: 300px;
+	margin-left: 450px;
+	background-color: rgba(12, 12, 12, 0.6);
+	padding: 20px;
+	border-bottom: 3px solid white;
+}
+
+main {
+	width: 80%;
+	margin: auto;
 }
 
 .section1 {
@@ -68,11 +81,6 @@ header nav a:visited {
 
 .section2 p {
 	text-indent: 10px;
-}
-
-main {
-	width: 80%;
-	margin: auto;
 }
 
 footer {
