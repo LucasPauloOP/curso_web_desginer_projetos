@@ -7,41 +7,12 @@
 		<meta name="author" content="Lucas Paulo" />
 		<meta name="description" content="lista de documentos" />
 		<meta name="keywords" content="html5,css, tecnologias" />
-		<style>
-			body {
-				background-color: #ccc;
-				font-family: sans-serif;
-			}
-			li {
-				list-style-type: none;
-			}
-			h2 {
-				background-color: rgb(153, 147, 180);
-			}
-			.center {
-				text-align: center;
-			}
-			h1 {
-				font-variant: small-caps;
-			}
-			a {
-				text-decoration: none;
-			}
-			a:hover {
-				font-weight: bold;
-			}
-			a:visited {
-				color: blue;
-			}
-			section {
-				background-color: #fafafaee;
-			}
-		</style>
+		<link rel="stylesheet" href="./style/index.css" />
 		<script></script>
 	</head>
 	<body>
 		<div class="center">
-			<header>
+			<header class="principal">
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -54,30 +25,30 @@
 					</ul>
 				</nav>
 
-				<div>
+				<div class="hero-content">
 					<h1>Curso Web Fundamentos</h1>
 					<p>Aprenda HTML, CSS e Javascript</p>
 				</div>
 			</header>
 			<main>
-				<section>
+				<section class="section1">
 					<div class="card">
-						<img src="" alt="" />
+						<img src="../imagens/card_01.png" alt="" />
 						<p>seletores</p>
 					</div>
 					<div class="card">
-						<img src="" alt="" />
+						<img src="../imagens/card_02.jpg" alt="" />
 						<p>posicionamento</p>
 					</div>
 					<div class="card">
-						<img src="" alt="" />
+						<img src="../imagens/card_03.jpg" alt="" />
 						<p>fontes e icones</p>
 					</div>
 				</section>
-				<section>
+				<section class="section2">
 					<article>
 						<header>
-							<h2>título</h2>
+							<h2>Título</h2>
 						</header>
 						<p>aaaa</p>
 						<p>bbbbbbb</p>
@@ -85,7 +56,7 @@
 				</section>
 			</main>
 			<footer>
-				<p>Copyright &copy:2020</p>
+				<header><p>Copyright &copy:2020</p></header>
 			</footer>
 		</div>
 	</body>
