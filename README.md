@@ -1,1 +1,1 @@
-# curso_web_desginer_projetos
+# curso_web_designer_projetos
